@@ -1,0 +1,160 @@
+body{
+background-color: hsl(229, 57%, 11%);   
+margin: 0px;
+font-family: 'Raleway', sans-serif;
+color: white;
+font-size: 14px;
+}
+.bgimg{
+    height: 420px;
+    width: 1440px;
+    margin: 380px 0px 0px;
+
+}
+.box1{
+    display: inline-block;
+    height: 200px;
+    width: 350px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 90px 15px 15px;
+    position: relative;
+    bottom: 508px;
+    left: 261px; 
+    
+}
+.logo{
+    margin: 40px 0px 0px 40px;
+    display: block;
+
+}
+/* .doc{
+    height: 42px;
+    width: 42px;
+    background-color: hsl(229, 57%, 11%);
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+   
+} */
+.docimg{
+   
+    border-style: solid;
+    border-width: 12px 14px;
+    border-radius: 10px;
+    border-color: hsl(229, 57%, 11%);
+    background-color: hsl(229, 57%, 11%);
+    display: inline-block;
+    margin: 0px;
+    margin-right: 0px;
+
+}
+.folder{
+    
+    border-style: solid;
+    border-width: 14px 12px;
+    border-radius: 10px;
+    border-color: hsl(229, 57%, 11%);
+    background-color: hsl(229, 57%, 11%);
+    margin: 0px 16px 0px 13px;
+
+}
+.upload{
+    margin: 0px;
+    border-style: solid;
+    border-width: 16px 12px;
+    border-radius: 10px;
+    border-color: hsl(229, 57%, 11%);
+    background-color: hsl(229, 57%, 11%);
+    position: relative;
+    bottom: 52px;
+    left: 128px;
+
+}
+.images{
+    margin: 31px 130px 40px 41px;
+    width: 176px;
+}
+.box2{
+    display: inline-block;
+    height: 155px;
+    width: 540px;
+    background-color: hsl(228, 56%, 26%);
+    position: relative;
+    bottom: 557px;
+    left: 291px;
+    border-radius: 10px;
+}
+.line1{
+    font-weight: 400;
+    margin: 40px 40px 20px;
+}
+.slider{
+    height: 20px;
+    width: 460px;
+    background-color: hsl(229, 57%, 11%) ;
+    margin-left: 41px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.slider2{
+    height: 14px;
+    width: 340px;
+    background-image: linear-gradient(to right,hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    border-radius: 7px;
+    margin: 3px 0px 3px 3px;
+    position: relative;
+    top: 3px;
+}
+.zero{
+    margin: 10px 41px;
+
+}
+.one{
+    position: relative;
+    left: 330px;
+}
+.circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    left: 328px;
+    top: 2px;
+}
+#comment-box{
+    height: 36px;
+    width: 165px;
+    position: relative;
+    bottom: 766px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    left: 965px;
+    background-color: white;
+    color: black;
+    padding: 15px 0px 18px 25px ;
+
+}
+.last{
+    font-size: 40px; 
+    font-weight: 700;
+    position: relative;
+    bottom: 6px;
+    
+}
+#comment-box::after{
+    position:absolute;
+    height: 22px;
+    width: 22px;
+    content: "";
+    bottom: -22px;
+    left: 88.5%;
+    background-color: white;
+    clip-path: polygon(0 0,100% 0,100% 100%);
+}
+.first{
+    margin-left: 8px;
+    position: relative;
+    bottom: 14px;
+    font-size: 14px;
+}
